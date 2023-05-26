@@ -79,7 +79,7 @@ nav {
 main {
 	margin: 60px 0;
 }
-.about-as.info {
+.about-as-info {
 	margin-bottom: 10px;
 	padding: 0 20px;
 }
@@ -109,7 +109,14 @@ main {
 .product h3 {
 	text-transform: uppercase;
 }
-
+.contact {
+	margin-top: 20px;
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
 .product:hover .hero-text {
 	scale: 1.6;
 }
@@ -128,14 +135,7 @@ main {
 		color: #333;
 		transition: color 0.3s;
 	}
-	.contact {
-		margin-top: 20px;
-		text-align: center;
-	}
-	.contact h3 {
-		margin: 20px 0 5px;
-		text-transform: uppercase;
-	}
+
 	.nav-items a:hover {
 		color: #09f;
 	}
